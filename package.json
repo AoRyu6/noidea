@@ -8,19 +8,22 @@
     "preview": "astro preview",
     "astro": "astro",
     "format": "prettier --write .",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "lint:html": "markuplint \"**/*.{astro,html}\""
   },
   "dependencies": {
     "astro": "^5.13.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.34.0",
+    "@markuplint/astro-parser": "^4.6.21",
     "@typescript-eslint/parser": "^8.41.0",
     "eslint": "^9.34.0",
     "eslint-plugin-astro": "^1.3.1",
     "eslint-plugin-functional": "^9.0.2",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-perfectionist": "^4.15.0",
+    "markuplint": "^4.13.1",
     "prettier": "3.6.2",
     "prettier-plugin-astro": "0.14.1",
     "typescript": "^5.9.2",
