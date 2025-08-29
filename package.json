@@ -9,7 +9,8 @@
     "astro": "astro",
     "format": "prettier --write .",
     "lint": "eslint .",
-    "lint:html": "markuplint \"**/*.{astro,html}\""
+    "lint:html": "markuplint \"**/*.{astro,html}\"",
+    "lint:css": "stylelint \"**/*.{astro,css}\""
   },
   "dependencies": {
     "astro": "^5.13.5"
@@ -24,8 +25,17 @@
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-perfectionist": "^4.15.0",
     "markuplint": "^4.13.1",
+    "postcss-html": "^1.8.0",
     "prettier": "3.6.2",
     "prettier-plugin-astro": "0.14.1",
+    "stylelint": "^16.23.1",
+    "stylelint-config-html": "^1.1.0",
+    "stylelint-config-standard": "^39.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.8.0",
+    "stylelint-plugin-defensive-css": "^1.0.4",
+    "stylelint-plugin-logical-css": "^1.2.3",
+    "stylelint-plugin-use-baseline": "^0.8.3",
+    "stylelint-use-nesting": "^6.0.0",
     "typescript": "^5.9.2",
     "typescript-eslint": "^8.41.0"
   }
