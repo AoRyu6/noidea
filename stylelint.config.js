@@ -1,7 +1,10 @@
 /** @type {import('stylelint').Config} */
 export default {
-  extends: ["stylelint-config-standard", "stylelint-config-html/astro"],
-  // ignoreFiles: ["./src/styles/reset.css"],
+  extends: [
+    "stylelint-config-standard",
+    "stylelint-config-html/astro",
+    "stylelint-config-recess-order",
+  ],
   plugins: [
     "stylelint-plugin-logical-css",
     "stylelint-plugin-use-baseline",
