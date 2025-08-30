@@ -17,6 +17,7 @@
     "destyle.css": "^4.0.1"
   },
   "devDependencies": {
+    "@double-great/stylelint-a11y": "^3.4.0",
     "@eslint/js": "^9.34.0",
     "@markuplint/astro-parser": "^4.6.21",
     "@typescript-eslint/parser": "^8.41.0",

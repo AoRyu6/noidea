@@ -4,6 +4,7 @@ export default {
     "stylelint-config-standard",
     "stylelint-config-html/astro",
     "stylelint-config-recess-order",
+    "@double-great/stylelint-a11y/recommended",
   ],
   plugins: [
     "stylelint-plugin-logical-css",
