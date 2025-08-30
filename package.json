@@ -8,7 +8,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "format": "prettier .",
-    "lint": "eslint .",
+    "lint:js": "eslint .",
     "lint:html": "markuplint \"**/*.{astro,html}\"",
     "lint:css": "stylelint \"**/*.{astro,css}\""
   },
